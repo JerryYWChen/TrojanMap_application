@@ -1,0 +1,7 @@
+bazel_tools,__main__,__main__
+local_config_cc,__main__,__main__
+local_config_xcode,__main__,__main__
+ncurses,__main__,__main__
+opencv,__main__,__main__
+platforms,__main__,__main__
+rules_cc,__main__,__main__

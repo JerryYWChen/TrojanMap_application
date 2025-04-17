@@ -1,0 +1,16 @@
+-shared
+-o
+bazel-out/k8-fastbuild/bin/src/lib/libTrojanMap.so
+-Wl,-S
+-fuse-ld=gold
+-B/usr/bin
+-Wl,-no-as-needed
+-Wl,-z,relro,-z,now
+-pass-exit-codes
+bazel-out/k8-fastbuild/bin/src/lib/_objs/TrojanMap/trojanmap.pic.o
+-Wl,--push-state,-as-needed
+-lstdc++
+-Wl,--pop-state
+-Wl,--push-state,-as-needed
+-lm
+-Wl,--pop-state
