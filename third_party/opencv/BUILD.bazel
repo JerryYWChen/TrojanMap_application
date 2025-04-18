@@ -1,0 +1,15 @@
+cc_library(
+    name = "opencv",
+    hdrs = glob(["include/opencv2/**/*.h", "include/opencv2/**/*.hpp"]),
+    includes = ["include"],
+    linkopts = [
+    "-Wl,-rpath,$$ORIGIN/../../third_party/opencv/lib",
+    "/home/ee538/cpp-template/sp25-project-JerryYWChen/opencv/install/lib/libopencv_core.so",
+    "/home/ee538/cpp-template/sp25-project-JerryYWChen/opencv/install/lib/libopencv_highgui.so",
+    "/home/ee538/cpp-template/sp25-project-JerryYWChen/opencv/install/lib/libopencv_imgcodecs.so",
+    "/home/ee538/cpp-template/sp25-project-JerryYWChen/opencv/install/lib/libopencv_imgproc.so",
+    "/home/ee538/cpp-template/sp25-project-JerryYWChen/opencv/install/lib/libopencv_videoio.so",
+    ],
+    visibility = ["//visibility:public"],
+)
+
