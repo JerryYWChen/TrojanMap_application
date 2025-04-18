@@ -1,0 +1,48 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+Executing tests from //tests:trojanmap_test
+-----------------------------------------------------------------------------
+Running main() from gmock_main.cc
+[==========] Running 14 tests from 1 test case.
+[----------] Global test environment set-up.
+[----------] 14 tests from TrojanMapTest
+[ RUN      ] TrojanMapTest.Autocomplete
+[       OK ] TrojanMapTest.Autocomplete (93 ms)
+[ RUN      ] TrojanMapTest.FindPosition
+[       OK ] TrojanMapTest.FindPosition (84 ms)
+[ RUN      ] TrojanMapTest.CalculateEditDistance
+[       OK ] TrojanMapTest.CalculateEditDistance (82 ms)
+[ RUN      ] TrojanMapTest.FindClosestName
+[       OK ] TrojanMapTest.FindClosestName (92 ms)
+[ RUN      ] TrojanMapTest.CalculateShortestPath_Dijkstra
+My path length: 1.49919miles
+GT path length: 1.49919miles
+My path length: 1.49919miles
+GT path length: 1.49919miles
+[       OK ] TrojanMapTest.CalculateShortestPath_Dijkstra (165 ms)
+[ RUN      ] TrojanMapTest.CalculateShortestPath_Bellman_Ford
+My path length: 1.49919miles
+GT path length: 1.49919miles
+My path length: 1.49919miles
+GT path length: 1.49919miles
+[       OK ] TrojanMapTest.CalculateShortestPath_Bellman_Ford (7692 ms)
+[ RUN      ] TrojanMapTest.CycleDetection
+[       OK ] TrojanMapTest.CycleDetection (82 ms)
+[ RUN      ] TrojanMapTest.TopologicalSort
+[       OK ] TrojanMapTest.TopologicalSort (80 ms)
+[ RUN      ] TrojanMapTest.GetAllCategories
+[       OK ] TrojanMapTest.GetAllCategories (81 ms)
+[ RUN      ] TrojanMapTest.GetAllLocationsFromCategory
+[       OK ] TrojanMapTest.GetAllLocationsFromCategory (80 ms)
+[ RUN      ] TrojanMapTest.GetAllLocationsFromCategory2
+[       OK ] TrojanMapTest.GetAllLocationsFromCategory2 (83 ms)
+[ RUN      ] TrojanMapTest.GetLocationRegex1
+[       OK ] TrojanMapTest.GetLocationRegex1 (88 ms)
+[ RUN      ] TrojanMapTest.GetLocationRegex2
+[       OK ] TrojanMapTest.GetLocationRegex2 (89 ms)
+[ RUN      ] TrojanMapTest.GetLocationRegex3
+[       OK ] TrojanMapTest.GetLocationRegex3 (92 ms)
+[----------] 14 tests from TrojanMapTest (8883 ms total)
+
+[----------] Global test environment tear-down
+[==========] 14 tests from 1 test case ran. (8883 ms total)
+[  PASSED  ] 14 tests.

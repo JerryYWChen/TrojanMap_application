@@ -1,0 +1,16 @@
+-shared
+-o
+bazel-out/k8-fastbuild/bin/external/googletest/libgtest_main.so
+-Wl,-S
+-fuse-ld=gold
+-B/usr/bin
+-Wl,-no-as-needed
+-Wl,-z,relro,-z,now
+-pass-exit-codes
+bazel-out/k8-fastbuild/bin/external/googletest/_objs/gtest_main/gmock_main.pic.o
+-Wl,--push-state,-as-needed
+-lstdc++
+-Wl,--pop-state
+-Wl,--push-state,-as-needed
+-lm
+-Wl,--pop-state

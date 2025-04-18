@@ -1,0 +1,6 @@
+__main__/_solib_k8/libexternal_Sgoogletest_Slibgtest.so /home/ee538/.cache/bazel/_bazel_ee538/e14831f34bf0d8e73f8b88cd2a61dd3b/execroot/__main__/bazel-out/k8-fastbuild/bin/_solib_k8/libexternal_Sgoogletest_Slibgtest.so
+__main__/_solib_k8/libexternal_Sgoogletest_Slibgtest_Umain.so /home/ee538/.cache/bazel/_bazel_ee538/e14831f34bf0d8e73f8b88cd2a61dd3b/execroot/__main__/bazel-out/k8-fastbuild/bin/_solib_k8/libexternal_Sgoogletest_Slibgtest_Umain.so
+__main__/_solib_k8/libsrc_Slib_SlibTrojanMap.so /home/ee538/.cache/bazel/_bazel_ee538/e14831f34bf0d8e73f8b88cd2a61dd3b/execroot/__main__/bazel-out/k8-fastbuild/bin/_solib_k8/libsrc_Slib_SlibTrojanMap.so
+__main__/src/lib/data.csv /home/ee538/cpp-template/sp25-project-JerryYWChen/src/lib/data.csv
+__main__/tests/trojanmap_test /home/ee538/.cache/bazel/_bazel_ee538/e14831f34bf0d8e73f8b88cd2a61dd3b/execroot/__main__/bazel-out/k8-fastbuild/bin/tests/trojanmap_test
+_repo_mapping /home/ee538/.cache/bazel/_bazel_ee538/e14831f34bf0d8e73f8b88cd2a61dd3b/execroot/__main__/bazel-out/k8-fastbuild/bin/tests/trojanmap_test.repo_mapping
